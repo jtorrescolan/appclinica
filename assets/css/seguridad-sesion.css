@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Cookie);
+html, body{
+    background-color: #f5f5f5;
+}
+.navbar-default{
+    padding-left: 10px;
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+}
+.navbar{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-bottom: 0px;
+}
+.content{
+    padding: 20px 30px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: white;
+}
+.contenedor-form{
+    margin-top: 15%;
+}
+.frmLogin{
+    margin: 0 auto;
+    width: 430px;
+}
+.contenedor-botones{
+    width: 100%;
+    overflow: hidden;
+}
+.contenedor-botones .botones{
+    float: right;
+    background-color: #2980b9;
+    color: white;
+    font-weight: bold;
+}
+.contenedor-botones .botones:hover{
+    background-color: #569AE8;
+}
+.link-home a.navbar-brand{
+    float: right;
+    color: white;
+    font-weight: normal;
+    padding: 18px 15px;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: white;
+}
+.icon-logo-panel{
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: text-top;
+    background-position: 48px 48px;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.icon-logo{
+    background: url('../image/logo.png');
+}
+.footer{
+    border: 1px solid #ddd;
+    padding: 10px 30px 10px;
+    background-color: white;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
