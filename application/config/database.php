@@ -48,17 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-//$db['default']['hostname'] = 'sql305.eshost.es';
-//$db['default']['hostname'] = 'mysql.hostinger.co';
 $db['default']['hostname'] = 'localhost';
-//$db['default']['username'] = 'u171490877_jorge';
-//$db['default']['username'] = 'eshos_14570676';
 $db['default']['username'] = 'jorge';
-//$db['default']['password'] = 'QsRaovY7DR';
-//$db['default']['password'] = 'sofipini';
 $db['default']['password'] = '12345';
-//$db['default']['database'] = 'u171490877_sys';
-//$db['default']['database'] = 'eshos_14570676_consultorio';
 $db['default']['database'] = 'sysclinico';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
